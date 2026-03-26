@@ -24,6 +24,7 @@
     <div class="input-group">
         <label>Service Rating</label>
         <select id="service">
+                    <option value="0.05">Good (5%)</option>
             <option value="0.1">Good (10%)</option>
             <option value="0.15">Great (15%)</option>
             <option value="0.2">Excellent (20%)</option>
@@ -31,9 +32,9 @@
     </div>
 
     <div class="input-group">
-        <label>Custom Tip (%)</label>
-        <input type="range" id="tipRange" min="0" max="30" value="15">
-        <span id="tipValue">15%</span>
+        <label>Custom Tip (5%)</label>
+        <input type="range" id="tipRange" min="0" max="30" value="0.05">
+        <span id="tipValue">5%</span>
     </div>
 
     <div class="result">
